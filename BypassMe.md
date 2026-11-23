@@ -1,0 +1,19 @@
+[Reverse Engineering] BypassMe - resttzzyy
+
+Category: Reverse Engineering
+Challenge: BypassMe
+Binary: bypassme.bin
+Tools: Ghidra, Python, LLDB (optional)
+Technique: Static Analysis, XOR Decoding
+
+
+Challange Overview:
+
+Intinya di challange ini kita disuruh ngedecrypt apa yang ada di soal. diberikannya file bypassme.bin yang dimana berada di supershell,
+kita disuruh memasukkan password untuk mengakses file bypassme.bin. Program memberikan tiga kesempatan untuk memasukkan password yang benar. Apabila autentikasi berhasil, program akan mencoba membaca file flag yang berada di direktori terlindungi.
+Tujuan kita adalah menganalisis executable untuk menemukan password yang valid tanpa melakukan brute force.
+
+![AccessSSH](ssh.png)
+
+
+
