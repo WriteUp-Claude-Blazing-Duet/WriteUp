@@ -13,5 +13,7 @@ Intinya di challange ini kita disuruh ngedecrypt apa yang ada di soal. diberikan
 kita disuruh memasukkan password untuk mengakses file bypassme.bin. Program memberikan tiga kesempatan untuk memasukkan password yang benar. Apabila autentikasi berhasil, program akan mencoba membaca file flag yang berada di direktori terlindungi.
 Tujuan kita adalah menganalisis executable untuk menemukan password yang valid tanpa melakukan brute force.
 
+![AccessSSH](ssh.png)
+
 
 
